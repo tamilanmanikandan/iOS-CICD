@@ -31,7 +31,7 @@ jobs:
         run: |
           xcodebuild -scheme iOS-CICD \
           -sdk iphonesimulator \
-          -destination "platform=iOS Simulator,name=iPhone 14,OS=latest" \
+          -destination "platform=iOS Simulator,name=iPhone 16,OS=latest" \
           clean build
 
           
