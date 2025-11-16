@@ -24,7 +24,7 @@ jobs:
 
       - name: Build App
         run: |
-          xcodebuild -scheme MyiOSApp \
+          xcodebuild -scheme iOS-CICD \
           -sdk iphonesimulator \
           -destination "platform=iOS Simulator,name=iPhone 15" \
           clean build
